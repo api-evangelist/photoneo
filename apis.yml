@@ -1,8 +1,31 @@
 aid: photoneo
 name: Photoneo
-description: Photoneo is a company surfaced as a portfolio company of earlybird and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Photoneo is a Slovak (Bratislava, founded 2013) machine-vision company and a
+  global pioneer of high-resolution structured-light 3D measurement. Its flagship
+  products are the PhoXi 3D Scanner family and the MotionCam-3D, a parallel
+  structured-light camera that captures moving scenes in real-time 3D, together
+  with AI-enabled software such as Bin Picking Studio, Locator, and Palletizing
+  for robotic automation. Rather than a hosted web/REST API, Photoneo exposes a
+  developer surface through the PhoXi Control software and its official C++, C#,
+  and Python device APIs, GenICam/GigE Vision standard connectivity, TCP/IP robot
+  interfaces (UR, ABB, FANUC, Staubli, Mitsubishi, Kawasaki, Yaskawa), and a set
+  of BSD-licensed example repositories on GitHub. Documentation lives in the
+  Photoneo Knowledge Base (docs.photoneo.com) and the 3D scanning wiki. Photoneo
+  (now part of the Brightpick Group) was acquired by Zebra Technologies.
 url: https://raw.githubusercontent.com/api-evangelist/photoneo/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.photoneo.com/wp-content/uploads/2021/03/photoneo-logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +34,49 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- 3D Vision
+- Machine Vision
+- Computer Vision
+- Robotics
+- Automation
+- Bin Picking
+- Industrial
+- Hardware
+- SDK
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/photoneo-domain-security.yml
+- type: Website
+  url: https://www.photoneo.com/
+- type: DeveloperPortal
+  url: https://docs.photoneo.com/
+- type: Documentation
+  url: https://docs.photoneo.com/
+- type: GitHubOrganization
+  url: https://github.com/photoneo-3d
+- type: About
+  url: https://www.photoneo.com/about-us/
+- type: Downloads
+  url: https://www.photoneo.com/downloads/device-resources/
+- type: KnowledgeBase
+  url: https://wiki.photoneo.com/
+- type: Packages
+  url: packages/photoneo-packages.yml
+- type: SDKs
+  url: packages/photoneo-packages.yml
+- type: LLMsTxt
+  url: llms/photoneo-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

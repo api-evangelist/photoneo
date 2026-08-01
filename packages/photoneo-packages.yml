@@ -1,0 +1,73 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/photoneo-3d
+notes: >-
+  Photoneo does not distribute its SDK through public package registries. The
+  official C++, C#, and Python device APIs ship bundled with the PhoXi Control
+  installer (docs.photoneo.com). What is public are the first-party, BSD-3-Clause
+  example repositories in the photoneo-3d GitHub organization plus a dated
+  third-party phoxi driver on PyPI (not maintained by Photoneo).
+packages:
+- language: python
+  registry: github
+  name: photoneo-python-examples
+  url: https://github.com/photoneo-3d/photoneo-python-examples
+  install: git clone https://github.com/photoneo-3d/photoneo-python-examples
+  official: true
+  license: BSD-3-Clause
+  kind: examples
+- language: cpp
+  registry: github
+  name: photoneo-cpp-examples
+  url: https://github.com/photoneo-3d/photoneo-cpp-examples
+  install: git clone https://github.com/photoneo-3d/photoneo-cpp-examples
+  official: true
+  license: BSD-3-Clause
+  kind: examples
+- language: csharp
+  registry: github
+  name: photoneo-csharp-examples
+  url: https://github.com/photoneo-3d/photoneo-csharp-examples
+  install: git clone https://github.com/photoneo-3d/photoneo-csharp-examples
+  official: true
+  license: BSD-3-Clause
+  kind: examples
+- language: halcon
+  registry: github
+  name: photoneo-halcon-examples
+  url: https://github.com/photoneo-3d/photoneo-halcon-examples
+  install: git clone https://github.com/photoneo-3d/photoneo-halcon-examples
+  official: true
+  license: BSD-3-Clause
+  kind: examples
+- language: cpp
+  registry: github
+  name: photoneo-avs-examples
+  url: https://github.com/photoneo-3d/photoneo-avs-examples
+  install: git clone https://github.com/photoneo-3d/photoneo-avs-examples
+  official: true
+  license: BSD-3-Clause
+  kind: examples
+sdks:
+- language: cpp
+  name: PhoXi Control C++ API
+  distribution: bundled-with-phoxi-control
+  url: https://docs.photoneo.com/
+  official: true
+- language: csharp
+  name: PhoXi Control C# API
+  distribution: bundled-with-phoxi-control
+  url: https://docs.photoneo.com/
+  official: true
+- language: python
+  name: PhoXi Control Python API
+  distribution: bundled-with-phoxi-control
+  url: https://www.photoneo.com/phoxi-control-firmware-1-17/
+  official: true
+third_party:
+- language: python
+  registry: pypi
+  name: phoxi
+  url: https://pypi.org/project/phoxi/
+  official: false
+  note: Community PhoXi driver, last released 2016; not maintained by Photoneo.

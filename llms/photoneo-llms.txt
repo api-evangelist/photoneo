@@ -1,0 +1,25 @@
+# Photoneo
+
+> Photoneo is a Slovak machine-vision company (Bratislava, founded 2013) and a global pioneer of high-resolution structured-light 3D measurement. Its PhoXi 3D Scanner family and MotionCam-3D cameras, paired with AI software (Bin Picking Studio, Locator, Palletizing), power robotic automation. Photoneo exposes a developer surface through the PhoXi Control software with official C++, C#, and Python device APIs, GenICam/GigE Vision connectivity, and TCP/IP robot interfaces — not a hosted web/REST API. Now part of the Brightpick Group; acquired by Zebra Technologies.
+
+## Documentation
+- [Photoneo Knowledge Base](https://docs.photoneo.com/): Setup, user manuals, PhoXi Control and PhoXi API documentation, release notes.
+- [3D Scanning Wiki](https://wiki.photoneo.com/): Bin Picking Studio tutorials and robot-interface integration guides.
+- [PhoXi Control Python API (1.17)](https://www.photoneo.com/phoxi-control-firmware-1-17/): Officially supported, documented Python driver.
+- [GigE Vision for 3D cameras](https://www.photoneo.com/gige-vision-for-3d-cameras/): GenICam (GenTL) / GigE Vision standard connectivity.
+
+## Code and SDKs
+- [photoneo-python-examples](https://github.com/photoneo-3d/photoneo-python-examples): Python building blocks for custom apps (BSD-3-Clause).
+- [photoneo-cpp-examples](https://github.com/photoneo-3d/photoneo-cpp-examples): C++ examples (BSD-3-Clause).
+- [photoneo-csharp-examples](https://github.com/photoneo-3d/photoneo-csharp-examples): C# examples (BSD-3-Clause).
+- [photoneo-halcon-examples](https://github.com/photoneo-3d/photoneo-halcon-examples): MVTec HALCON integration examples (BSD-3-Clause).
+- [GitHub organization](https://github.com/photoneo-3d): All first-party example repositories.
+
+## Products
+- [Bin Picking Studio](https://www.photoneo.com/bin-picking-studio/): Robotic intelligence system for automated bin picking.
+- [3D Sensors](https://www.photoneo.com/3d-sensors/): PhoXi 3D Scanner and MotionCam-3D camera families.
+- [3D Scanning Software](https://www.photoneo.com/3d-scanning-software/): PhoXi Control and related tooling.
+- [Device Resources / Downloads](https://www.photoneo.com/downloads/device-resources/): Firmware, drivers, manuals.
+
+## About
+- [About Photoneo](https://www.photoneo.com/about-us/): Company background and technology.
