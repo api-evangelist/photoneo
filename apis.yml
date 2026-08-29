@@ -14,6 +14,17 @@ description: >-
   Photoneo Knowledge Base (docs.photoneo.com) and the 3D scanning wiki. Photoneo
   (now part of the Brightpick Group) was acquired by Zebra Technologies.
 url: https://raw.githubusercontent.com/api-evangelist/photoneo/refs/heads/main/apis.yml
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
